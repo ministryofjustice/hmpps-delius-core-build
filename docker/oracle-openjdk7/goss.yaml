@@ -1,0 +1,8 @@
+#example test
+command:
+  java -version:
+    exit-status: 0
+    stdout: []
+    stderr:
+      - 1.7.0_181
+    timeout: 10000 # in milliseconds
